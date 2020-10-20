@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Lenn&eacute;-Parks in Deutschland</title>
+    
+    <!-- Leaflet extern einbinden -->
+    <!--  
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    -->
+	
+    <!-- Leaflet intern einbinden -->  	
+    <link rel="stylesheet" href="./lib/leaflet.css" />
+    <script src="./lib/leaflet.js"></script>  
+    <script src="./lib/leaflet.label.js"></script>
+    <link rel="stylesheet" href="./lib/leaflet.label.css" />
+	
+    <!-- GeoJSON Daten einbinden -->
+    <script src="./lenne_park_daten.json"></script>
+    <script src="./deutschland.json"></script>
+	
+    <!-- Eigene CSS-Datei einbinden -->	
+    <link rel="stylesheet" href="./css+js/lenne.css" />
+	
+  </head>
+  <body>
+  <div id="header">
+    <h1>Lenn&eacute;-Parks in Deutschland</h1>
+  </div>
+  <div id="map"></div>
+  
+    <!-- Eigene JS-Datei (der gesamte Quellcode fuer die Map) einbinden -->	
+    <script src="./css+js/lenne.js"></script>
+	
+  <div id="footer">
+    &copy; Prof. Dr.-Ing. Wolfgang Kresse; Dustin Arndt; Chris Bojarra; Mathias Krüger; Danny Neubauer; Oliver Rakowski; Tino Schuldt; 2016
+  </div>
+  </body>
+</html>

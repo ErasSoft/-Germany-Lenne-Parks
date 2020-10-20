@@ -1,0 +1,48 @@
+/* Darstellung der HTML-Seite */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding-top: 1em;
+}
+#header {
+	height: 60px;
+}
+#footer {
+  text-align: right;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  width: 99%;
+}
+#map {
+	height: 90%;
+	width: 98%;
+	margin: 0 auto;
+}
+
+/* Darstellung der Label */
+.myLabel {
+	background: rgba(255,255,255,0.75);
+	border-color: rgba(0,0,0,0);
+	border-radius: 0px;
+	border-width: 0px;
+	color: #000;
+	left: -3px;
+	padding: 0px 1px;
+	top: 5px;
+	z-index: 0;
+}
+
+/* Hintergrund auf weiss setzen */
+.leaflet-container {
+  background: #fff;
+}

@@ -1,0 +1,1612 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.8.1-Wien">
+  <title></title>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Daten20160621132702348" name="Daten">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Daten_backup20160621140917441" name="Daten_backup">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="VG250_STA20160621132313523" name="VG250_STA">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="l320160621131509819" name="l3">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="l620160621131421610" name="l6">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="l120160621131300477" name="l1">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>32856978.827005535364151</xmin>
+      <ymin>5234052.34973725117743015</ymin>
+      <xmax>33603117.39306846261024475</xmax>
+      <ymax>6200772.19874008931219578</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28303</srsid>
+        <srid>5650</srid>
+        <authid>EPSG:5650</authid>
+        <description>ETRS89 / UTM zone 33N (zE-N)</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:5650" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="VG250_STA20160621132313523"/>
+      <layer_coordinate_transform destAuthId="EPSG:5650" srcAuthId="EPSG:25832" srcDatumTransform="-1" destDatumTransform="-1" layerid="Daten_backup20160621140917441"/>
+      <layer_coordinate_transform destAuthId="EPSG:5650" srcAuthId="EPSG:5650" srcDatumTransform="-1" destDatumTransform="-1" layerid="l620160621131421610"/>
+      <layer_coordinate_transform destAuthId="EPSG:5650" srcAuthId="EPSG:25832" srcDatumTransform="-1" destDatumTransform="-1" layerid="Daten20160621132702348"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <visibility-presets/>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>l120160621131300477</item>
+      <item>l620160621131421610</item>
+      <item>l320160621131509819</item>
+      <item>VG250_STA20160621132313523</item>
+      <item>Daten20160621132702348</item>
+      <item>Daten_backup20160621140917441</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Daten" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Daten20160621132702348" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Daten_backup" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Daten_backup20160621140917441" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="VG250_STA" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="VG250_STA20160621132313523" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="l3" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="l320160621131509819" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="l6" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="l620160621131421610" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="l1" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="l120160621131300477" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers layercount="6">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Daten20160621132702348</id>
+      <datasource>./Daten.shp</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Daten</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2105</srsid>
+          <srid>25832</srid>
+          <authid>EPSG:25832</authid>
+          <description>ETRS89 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0"/>
+              <prop k="color" v="205,221,156,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Beschriftung"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Daten_backup20160621140917441</id>
+      <datasource>./Daten_backup.shp</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Daten_backup</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2105</srsid>
+          <srid>25832</srid>
+          <authid>EPSG:25832</authid>
+          <description>ETRS89 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0"/>
+              <prop k="color" v="36,21,207,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Beschriftung"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>VG250_STA20160621132313523</id>
+      <datasource>./VG250_STA.shp</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>VG250_STA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2105</srsid>
+          <srid>25832</srid>
+          <authid>EPSG:25832</authid>
+          <description>ETRS89 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( "DEBKG_ID", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ADE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GF">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BSG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AGS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SDV_RS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GEN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BEZ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="IBZ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BEM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NBD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_L">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_R">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_K">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_V1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_V2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_G">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FK_S3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUTS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RS_0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AGS_0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="WSK">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DEBKG_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0"/>
+              <prop k="color" v="255,255,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitMaxScale" value="0"/>
+        <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fontBold" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="0"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DEBKG_ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Beschriftung"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ADE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GF">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BSG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AGS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SDV_RS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GEN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BEZ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="IBZ">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="BEM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NBD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_L">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_R">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_K">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_V1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_V2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SN_G">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FK_S3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NUTS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RS_0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AGS_0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="WSK">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DEBKG_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>l120160621131300477</id>
+      <datasource>P:/vmgg08/lenne/karte/dtk500-v/l1.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28303</srsid>
+          <srid>5650</srid>
+          <authid>EPSG:5650</authid>
+          <description>ETRS89 / UTM zone 33N (zE-N)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
+          <rasterTransparency/>
+          <colorPalette>
+            <paletteEntry value="0" color="#ffffff" label="0"/>
+            <paletteEntry value="1" color="#000000" label="1"/>
+            <paletteEntry value="2" color="#000000" label="2"/>
+            <paletteEntry value="3" color="#000000" label="3"/>
+            <paletteEntry value="4" color="#000000" label="4"/>
+            <paletteEntry value="5" color="#000000" label="5"/>
+            <paletteEntry value="6" color="#000000" label="6"/>
+            <paletteEntry value="7" color="#000000" label="7"/>
+            <paletteEntry value="8" color="#000000" label="8"/>
+            <paletteEntry value="9" color="#ffffff" label="9"/>
+            <paletteEntry value="10" color="#000000" label="10"/>
+            <paletteEntry value="11" color="#000000" label="11"/>
+            <paletteEntry value="12" color="#000000" label="12"/>
+            <paletteEntry value="13" color="#000000" label="13"/>
+            <paletteEntry value="14" color="#000000" label="14"/>
+            <paletteEntry value="15" color="#000000" label="15"/>
+            <paletteEntry value="16" color="#000000" label="16"/>
+            <paletteEntry value="17" color="#000000" label="17"/>
+            <paletteEntry value="18" color="#000000" label="18"/>
+            <paletteEntry value="19" color="#ffffff" label="19"/>
+            <paletteEntry value="20" color="#ffffff" label="20"/>
+            <paletteEntry value="21" color="#ffffff" label="21"/>
+            <paletteEntry value="22" color="#ffffff" label="22"/>
+            <paletteEntry value="23" color="#ffffff" label="23"/>
+            <paletteEntry value="24" color="#ffffff" label="24"/>
+            <paletteEntry value="25" color="#ffffff" label="25"/>
+            <paletteEntry value="26" color="#ffffff" label="26"/>
+            <paletteEntry value="27" color="#ffffff" label="27"/>
+            <paletteEntry value="28" color="#ffffff" label="28"/>
+            <paletteEntry value="29" color="#ffffff" label="29"/>
+            <paletteEntry value="30" color="#ffffff" label="30"/>
+            <paletteEntry value="31" color="#ffffff" label="31"/>
+            <paletteEntry value="32" color="#ffffff" label="32"/>
+            <paletteEntry value="33" color="#ffffff" label="33"/>
+            <paletteEntry value="34" color="#ffffff" label="34"/>
+            <paletteEntry value="35" color="#ffffff" label="35"/>
+            <paletteEntry value="36" color="#ffffff" label="36"/>
+            <paletteEntry value="37" color="#ffffff" label="37"/>
+            <paletteEntry value="38" color="#ffffff" label="38"/>
+            <paletteEntry value="39" color="#ffffff" label="39"/>
+            <paletteEntry value="40" color="#ffffff" label="40"/>
+            <paletteEntry value="41" color="#ffffff" label="41"/>
+            <paletteEntry value="42" color="#ffffff" label="42"/>
+            <paletteEntry value="43" color="#ffffff" label="43"/>
+            <paletteEntry value="44" color="#ffffff" label="44"/>
+            <paletteEntry value="45" color="#ffffff" label="45"/>
+            <paletteEntry value="46" color="#ffffff" label="46"/>
+            <paletteEntry value="47" color="#ffffff" label="47"/>
+            <paletteEntry value="48" color="#ffffff" label="48"/>
+            <paletteEntry value="49" color="#ffffff" label="49"/>
+            <paletteEntry value="50" color="#ffffff" label="50"/>
+            <paletteEntry value="51" color="#ffffff" label="51"/>
+            <paletteEntry value="52" color="#ffffff" label="52"/>
+            <paletteEntry value="53" color="#ffffff" label="53"/>
+            <paletteEntry value="54" color="#ffffff" label="54"/>
+            <paletteEntry value="55" color="#ffffff" label="55"/>
+            <paletteEntry value="56" color="#ffffff" label="56"/>
+            <paletteEntry value="57" color="#ffffff" label="57"/>
+            <paletteEntry value="58" color="#ffffff" label="58"/>
+            <paletteEntry value="59" color="#ffffff" label="59"/>
+            <paletteEntry value="60" color="#ffffff" label="60"/>
+            <paletteEntry value="61" color="#ffffff" label="61"/>
+            <paletteEntry value="62" color="#ffffff" label="62"/>
+            <paletteEntry value="63" color="#ffffff" label="63"/>
+            <paletteEntry value="64" color="#ffffff" label="64"/>
+            <paletteEntry value="65" color="#ffffff" label="65"/>
+            <paletteEntry value="66" color="#ffffff" label="66"/>
+            <paletteEntry value="67" color="#ffffff" label="67"/>
+            <paletteEntry value="68" color="#ffffff" label="68"/>
+            <paletteEntry value="69" color="#ffffff" label="69"/>
+            <paletteEntry value="70" color="#ffffff" label="70"/>
+            <paletteEntry value="71" color="#ffffff" label="71"/>
+            <paletteEntry value="72" color="#ffffff" label="72"/>
+            <paletteEntry value="73" color="#ffffff" label="73"/>
+            <paletteEntry value="74" color="#ffffff" label="74"/>
+            <paletteEntry value="75" color="#ffffff" label="75"/>
+            <paletteEntry value="76" color="#ffffff" label="76"/>
+            <paletteEntry value="77" color="#ffffff" label="77"/>
+            <paletteEntry value="78" color="#ffffff" label="78"/>
+            <paletteEntry value="79" color="#ffffff" label="79"/>
+            <paletteEntry value="80" color="#ffffff" label="80"/>
+            <paletteEntry value="81" color="#ffffff" label="81"/>
+            <paletteEntry value="82" color="#ffffff" label="82"/>
+            <paletteEntry value="83" color="#ffffff" label="83"/>
+            <paletteEntry value="84" color="#ffffff" label="84"/>
+            <paletteEntry value="85" color="#ffffff" label="85"/>
+            <paletteEntry value="86" color="#ffffff" label="86"/>
+            <paletteEntry value="87" color="#ffffff" label="87"/>
+            <paletteEntry value="88" color="#ffffff" label="88"/>
+            <paletteEntry value="89" color="#ffffff" label="89"/>
+            <paletteEntry value="90" color="#ffffff" label="90"/>
+            <paletteEntry value="91" color="#ffffff" label="91"/>
+            <paletteEntry value="92" color="#ffffff" label="92"/>
+            <paletteEntry value="93" color="#ffffff" label="93"/>
+            <paletteEntry value="94" color="#ffffff" label="94"/>
+            <paletteEntry value="95" color="#ffffff" label="95"/>
+            <paletteEntry value="96" color="#ffffff" label="96"/>
+            <paletteEntry value="97" color="#ffffff" label="97"/>
+            <paletteEntry value="98" color="#ffffff" label="98"/>
+            <paletteEntry value="99" color="#ffffff" label="99"/>
+            <paletteEntry value="100" color="#ffffff" label="100"/>
+            <paletteEntry value="101" color="#ffffff" label="101"/>
+            <paletteEntry value="102" color="#ffffff" label="102"/>
+            <paletteEntry value="103" color="#ffffff" label="103"/>
+            <paletteEntry value="104" color="#ffffff" label="104"/>
+            <paletteEntry value="105" color="#ffffff" label="105"/>
+            <paletteEntry value="106" color="#ffffff" label="106"/>
+            <paletteEntry value="107" color="#ffffff" label="107"/>
+            <paletteEntry value="108" color="#ffffff" label="108"/>
+            <paletteEntry value="109" color="#ffffff" label="109"/>
+            <paletteEntry value="110" color="#ffffff" label="110"/>
+            <paletteEntry value="111" color="#ffffff" label="111"/>
+            <paletteEntry value="112" color="#ffffff" label="112"/>
+            <paletteEntry value="113" color="#ffffff" label="113"/>
+            <paletteEntry value="114" color="#ffffff" label="114"/>
+            <paletteEntry value="115" color="#ffffff" label="115"/>
+            <paletteEntry value="116" color="#ffffff" label="116"/>
+            <paletteEntry value="117" color="#ffffff" label="117"/>
+            <paletteEntry value="118" color="#ffffff" label="118"/>
+            <paletteEntry value="119" color="#ffffff" label="119"/>
+            <paletteEntry value="120" color="#ffffff" label="120"/>
+            <paletteEntry value="121" color="#ffffff" label="121"/>
+            <paletteEntry value="122" color="#ffffff" label="122"/>
+            <paletteEntry value="123" color="#ffffff" label="123"/>
+            <paletteEntry value="124" color="#ffffff" label="124"/>
+            <paletteEntry value="125" color="#ffffff" label="125"/>
+            <paletteEntry value="126" color="#ffffff" label="126"/>
+            <paletteEntry value="127" color="#ffffff" label="127"/>
+            <paletteEntry value="128" color="#ffffff" label="128"/>
+            <paletteEntry value="129" color="#ffffff" label="129"/>
+            <paletteEntry value="130" color="#ffffff" label="130"/>
+            <paletteEntry value="131" color="#ffffff" label="131"/>
+            <paletteEntry value="132" color="#ffffff" label="132"/>
+            <paletteEntry value="133" color="#ffffff" label="133"/>
+            <paletteEntry value="134" color="#ffffff" label="134"/>
+            <paletteEntry value="135" color="#ffffff" label="135"/>
+            <paletteEntry value="136" color="#ffffff" label="136"/>
+            <paletteEntry value="137" color="#ffffff" label="137"/>
+            <paletteEntry value="138" color="#ffffff" label="138"/>
+            <paletteEntry value="139" color="#ffffff" label="139"/>
+            <paletteEntry value="140" color="#ffffff" label="140"/>
+            <paletteEntry value="141" color="#ffffff" label="141"/>
+            <paletteEntry value="142" color="#ffffff" label="142"/>
+            <paletteEntry value="143" color="#ffffff" label="143"/>
+            <paletteEntry value="144" color="#ffffff" label="144"/>
+            <paletteEntry value="145" color="#ffffff" label="145"/>
+            <paletteEntry value="146" color="#ffffff" label="146"/>
+            <paletteEntry value="147" color="#ffffff" label="147"/>
+            <paletteEntry value="148" color="#ffffff" label="148"/>
+            <paletteEntry value="149" color="#ffffff" label="149"/>
+            <paletteEntry value="150" color="#ffffff" label="150"/>
+            <paletteEntry value="151" color="#ffffff" label="151"/>
+            <paletteEntry value="152" color="#ffffff" label="152"/>
+            <paletteEntry value="153" color="#ffffff" label="153"/>
+            <paletteEntry value="154" color="#ffffff" label="154"/>
+            <paletteEntry value="155" color="#ffffff" label="155"/>
+            <paletteEntry value="156" color="#ffffff" label="156"/>
+            <paletteEntry value="157" color="#ffffff" label="157"/>
+            <paletteEntry value="158" color="#ffffff" label="158"/>
+            <paletteEntry value="159" color="#ffffff" label="159"/>
+            <paletteEntry value="160" color="#ffffff" label="160"/>
+            <paletteEntry value="161" color="#ffffff" label="161"/>
+            <paletteEntry value="162" color="#ffffff" label="162"/>
+            <paletteEntry value="163" color="#ffffff" label="163"/>
+            <paletteEntry value="164" color="#ffffff" label="164"/>
+            <paletteEntry value="165" color="#ffffff" label="165"/>
+            <paletteEntry value="166" color="#ffffff" label="166"/>
+            <paletteEntry value="167" color="#ffffff" label="167"/>
+            <paletteEntry value="168" color="#ffffff" label="168"/>
+            <paletteEntry value="169" color="#ffffff" label="169"/>
+            <paletteEntry value="170" color="#ffffff" label="170"/>
+            <paletteEntry value="171" color="#ffffff" label="171"/>
+            <paletteEntry value="172" color="#ffffff" label="172"/>
+            <paletteEntry value="173" color="#ffffff" label="173"/>
+            <paletteEntry value="174" color="#ffffff" label="174"/>
+            <paletteEntry value="175" color="#ffffff" label="175"/>
+            <paletteEntry value="176" color="#ffffff" label="176"/>
+            <paletteEntry value="177" color="#ffffff" label="177"/>
+            <paletteEntry value="178" color="#ffffff" label="178"/>
+            <paletteEntry value="179" color="#ffffff" label="179"/>
+            <paletteEntry value="180" color="#ffffff" label="180"/>
+            <paletteEntry value="181" color="#ffffff" label="181"/>
+            <paletteEntry value="182" color="#ffffff" label="182"/>
+            <paletteEntry value="183" color="#ffffff" label="183"/>
+            <paletteEntry value="184" color="#ffffff" label="184"/>
+            <paletteEntry value="185" color="#ffffff" label="185"/>
+            <paletteEntry value="186" color="#ffffff" label="186"/>
+            <paletteEntry value="187" color="#ffffff" label="187"/>
+            <paletteEntry value="188" color="#ffffff" label="188"/>
+            <paletteEntry value="189" color="#ffffff" label="189"/>
+            <paletteEntry value="190" color="#ffffff" label="190"/>
+            <paletteEntry value="191" color="#ffffff" label="191"/>
+            <paletteEntry value="192" color="#ffffff" label="192"/>
+            <paletteEntry value="193" color="#ffffff" label="193"/>
+            <paletteEntry value="194" color="#ffffff" label="194"/>
+            <paletteEntry value="195" color="#ffffff" label="195"/>
+            <paletteEntry value="196" color="#ffffff" label="196"/>
+            <paletteEntry value="197" color="#ffffff" label="197"/>
+            <paletteEntry value="198" color="#ffffff" label="198"/>
+            <paletteEntry value="199" color="#ffffff" label="199"/>
+            <paletteEntry value="200" color="#ffffff" label="200"/>
+            <paletteEntry value="201" color="#ffffff" label="201"/>
+            <paletteEntry value="202" color="#ffffff" label="202"/>
+            <paletteEntry value="203" color="#ffffff" label="203"/>
+            <paletteEntry value="204" color="#ffffff" label="204"/>
+            <paletteEntry value="205" color="#ffffff" label="205"/>
+            <paletteEntry value="206" color="#ffffff" label="206"/>
+            <paletteEntry value="207" color="#ffffff" label="207"/>
+            <paletteEntry value="208" color="#ffffff" label="208"/>
+            <paletteEntry value="209" color="#ffffff" label="209"/>
+            <paletteEntry value="210" color="#ffffff" label="210"/>
+            <paletteEntry value="211" color="#ffffff" label="211"/>
+            <paletteEntry value="212" color="#ffffff" label="212"/>
+            <paletteEntry value="213" color="#ffffff" label="213"/>
+            <paletteEntry value="214" color="#ffffff" label="214"/>
+            <paletteEntry value="215" color="#ffffff" label="215"/>
+            <paletteEntry value="216" color="#ffffff" label="216"/>
+            <paletteEntry value="217" color="#ffffff" label="217"/>
+            <paletteEntry value="218" color="#ffffff" label="218"/>
+            <paletteEntry value="219" color="#ffffff" label="219"/>
+            <paletteEntry value="220" color="#ffffff" label="220"/>
+            <paletteEntry value="221" color="#ffffff" label="221"/>
+            <paletteEntry value="222" color="#ffffff" label="222"/>
+            <paletteEntry value="223" color="#ffffff" label="223"/>
+            <paletteEntry value="224" color="#ffffff" label="224"/>
+            <paletteEntry value="225" color="#ffffff" label="225"/>
+            <paletteEntry value="226" color="#ffffff" label="226"/>
+            <paletteEntry value="227" color="#ffffff" label="227"/>
+            <paletteEntry value="228" color="#ffffff" label="228"/>
+            <paletteEntry value="229" color="#ffffff" label="229"/>
+            <paletteEntry value="230" color="#ffffff" label="230"/>
+            <paletteEntry value="231" color="#ffffff" label="231"/>
+            <paletteEntry value="232" color="#ffffff" label="232"/>
+            <paletteEntry value="233" color="#ffffff" label="233"/>
+            <paletteEntry value="234" color="#ffffff" label="234"/>
+            <paletteEntry value="235" color="#ffffff" label="235"/>
+            <paletteEntry value="236" color="#ffffff" label="236"/>
+            <paletteEntry value="237" color="#ffffff" label="237"/>
+            <paletteEntry value="238" color="#ffffff" label="238"/>
+            <paletteEntry value="239" color="#ffffff" label="239"/>
+            <paletteEntry value="240" color="#ffffff" label="240"/>
+            <paletteEntry value="241" color="#ffffff" label="241"/>
+            <paletteEntry value="242" color="#ffffff" label="242"/>
+            <paletteEntry value="243" color="#ffffff" label="243"/>
+            <paletteEntry value="244" color="#ffffff" label="244"/>
+            <paletteEntry value="245" color="#ffffff" label="245"/>
+            <paletteEntry value="246" color="#ffffff" label="246"/>
+            <paletteEntry value="247" color="#ffffff" label="247"/>
+            <paletteEntry value="248" color="#ffffff" label="248"/>
+            <paletteEntry value="249" color="#ffffff" label="249"/>
+            <paletteEntry value="250" color="#ffffff" label="250"/>
+            <paletteEntry value="251" color="#ffffff" label="251"/>
+            <paletteEntry value="252" color="#ffffff" label="252"/>
+            <paletteEntry value="253" color="#ffffff" label="253"/>
+            <paletteEntry value="254" color="#ffffff" label="254"/>
+            <paletteEntry value="255" color="#feffff" label="255"/>
+          </colorPalette>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>l320160621131509819</id>
+      <datasource>P:/vmgg08/lenne/karte/dtk500-v/l3.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28303</srsid>
+          <srid>5650</srid>
+          <authid>EPSG:5650</authid>
+          <description>ETRS89 / UTM zone 33N (zE-N)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
+          <rasterTransparency/>
+          <colorPalette>
+            <paletteEntry value="0" color="#ffffff" label="0"/>
+            <paletteEntry value="1" color="#0000ff" label="1"/>
+            <paletteEntry value="2" color="#b2d9ff" label="2"/>
+            <paletteEntry value="3" color="#ccffff" label="3"/>
+            <paletteEntry value="4" color="#f2d6aa" label="4"/>
+            <paletteEntry value="5" color="#0000ff" label="5"/>
+            <paletteEntry value="6" color="#0000ff" label="6"/>
+            <paletteEntry value="7" color="#ffffff" label="7"/>
+            <paletteEntry value="8" color="#ffffff" label="8"/>
+            <paletteEntry value="9" color="#ffffff" label="9"/>
+            <paletteEntry value="10" color="#ffffff" label="10"/>
+            <paletteEntry value="11" color="#0000ff" label="11"/>
+            <paletteEntry value="12" color="#b2d9ff" label="12"/>
+            <paletteEntry value="13" color="#ccffff" label="13"/>
+            <paletteEntry value="14" color="#f2d6aa" label="14"/>
+            <paletteEntry value="15" color="#0000ff" label="15"/>
+            <paletteEntry value="16" color="#0000ff" label="16"/>
+            <paletteEntry value="17" color="#ffffff" label="17"/>
+            <paletteEntry value="18" color="#ffffff" label="18"/>
+            <paletteEntry value="19" color="#ffffff" label="19"/>
+            <paletteEntry value="20" color="#ffffff" label="20"/>
+            <paletteEntry value="21" color="#ffffff" label="21"/>
+            <paletteEntry value="22" color="#ffffff" label="22"/>
+            <paletteEntry value="23" color="#ffffff" label="23"/>
+            <paletteEntry value="24" color="#ffffff" label="24"/>
+            <paletteEntry value="25" color="#ffffff" label="25"/>
+            <paletteEntry value="26" color="#ffffff" label="26"/>
+            <paletteEntry value="27" color="#ffffff" label="27"/>
+            <paletteEntry value="28" color="#ffffff" label="28"/>
+            <paletteEntry value="29" color="#ffffff" label="29"/>
+            <paletteEntry value="30" color="#ffffff" label="30"/>
+            <paletteEntry value="31" color="#ffffff" label="31"/>
+            <paletteEntry value="32" color="#ffffff" label="32"/>
+            <paletteEntry value="33" color="#ffffff" label="33"/>
+            <paletteEntry value="34" color="#ffffff" label="34"/>
+            <paletteEntry value="35" color="#ffffff" label="35"/>
+            <paletteEntry value="36" color="#ffffff" label="36"/>
+            <paletteEntry value="37" color="#ffffff" label="37"/>
+            <paletteEntry value="38" color="#ffffff" label="38"/>
+            <paletteEntry value="39" color="#ffffff" label="39"/>
+            <paletteEntry value="40" color="#ffffff" label="40"/>
+            <paletteEntry value="41" color="#ffffff" label="41"/>
+            <paletteEntry value="42" color="#ffffff" label="42"/>
+            <paletteEntry value="43" color="#ffffff" label="43"/>
+            <paletteEntry value="44" color="#ffffff" label="44"/>
+            <paletteEntry value="45" color="#ffffff" label="45"/>
+            <paletteEntry value="46" color="#ffffff" label="46"/>
+            <paletteEntry value="47" color="#ffffff" label="47"/>
+            <paletteEntry value="48" color="#ffffff" label="48"/>
+            <paletteEntry value="49" color="#ffffff" label="49"/>
+            <paletteEntry value="50" color="#ffffff" label="50"/>
+            <paletteEntry value="51" color="#ffffff" label="51"/>
+            <paletteEntry value="52" color="#ffffff" label="52"/>
+            <paletteEntry value="53" color="#ffffff" label="53"/>
+            <paletteEntry value="54" color="#ffffff" label="54"/>
+            <paletteEntry value="55" color="#ffffff" label="55"/>
+            <paletteEntry value="56" color="#ffffff" label="56"/>
+            <paletteEntry value="57" color="#ffffff" label="57"/>
+            <paletteEntry value="58" color="#ffffff" label="58"/>
+            <paletteEntry value="59" color="#ffffff" label="59"/>
+            <paletteEntry value="60" color="#ffffff" label="60"/>
+            <paletteEntry value="61" color="#ffffff" label="61"/>
+            <paletteEntry value="62" color="#ffffff" label="62"/>
+            <paletteEntry value="63" color="#ffffff" label="63"/>
+            <paletteEntry value="64" color="#ffffff" label="64"/>
+            <paletteEntry value="65" color="#ffffff" label="65"/>
+            <paletteEntry value="66" color="#ffffff" label="66"/>
+            <paletteEntry value="67" color="#ffffff" label="67"/>
+            <paletteEntry value="68" color="#ffffff" label="68"/>
+            <paletteEntry value="69" color="#ffffff" label="69"/>
+            <paletteEntry value="70" color="#ffffff" label="70"/>
+            <paletteEntry value="71" color="#ffffff" label="71"/>
+            <paletteEntry value="72" color="#ffffff" label="72"/>
+            <paletteEntry value="73" color="#ffffff" label="73"/>
+            <paletteEntry value="74" color="#ffffff" label="74"/>
+            <paletteEntry value="75" color="#ffffff" label="75"/>
+            <paletteEntry value="76" color="#ffffff" label="76"/>
+            <paletteEntry value="77" color="#ffffff" label="77"/>
+            <paletteEntry value="78" color="#ffffff" label="78"/>
+            <paletteEntry value="79" color="#ffffff" label="79"/>
+            <paletteEntry value="80" color="#ffffff" label="80"/>
+            <paletteEntry value="81" color="#ffffff" label="81"/>
+            <paletteEntry value="82" color="#ffffff" label="82"/>
+            <paletteEntry value="83" color="#ffffff" label="83"/>
+            <paletteEntry value="84" color="#ffffff" label="84"/>
+            <paletteEntry value="85" color="#ffffff" label="85"/>
+            <paletteEntry value="86" color="#ffffff" label="86"/>
+            <paletteEntry value="87" color="#ffffff" label="87"/>
+            <paletteEntry value="88" color="#ffffff" label="88"/>
+            <paletteEntry value="89" color="#ffffff" label="89"/>
+            <paletteEntry value="90" color="#ffffff" label="90"/>
+            <paletteEntry value="91" color="#ffffff" label="91"/>
+            <paletteEntry value="92" color="#ffffff" label="92"/>
+            <paletteEntry value="93" color="#ffffff" label="93"/>
+            <paletteEntry value="94" color="#ffffff" label="94"/>
+            <paletteEntry value="95" color="#ffffff" label="95"/>
+            <paletteEntry value="96" color="#ffffff" label="96"/>
+            <paletteEntry value="97" color="#ffffff" label="97"/>
+            <paletteEntry value="98" color="#ffffff" label="98"/>
+            <paletteEntry value="99" color="#ffffff" label="99"/>
+            <paletteEntry value="100" color="#ffffff" label="100"/>
+            <paletteEntry value="101" color="#ffffff" label="101"/>
+            <paletteEntry value="102" color="#ffffff" label="102"/>
+            <paletteEntry value="103" color="#ffffff" label="103"/>
+            <paletteEntry value="104" color="#ffffff" label="104"/>
+            <paletteEntry value="105" color="#ffffff" label="105"/>
+            <paletteEntry value="106" color="#ffffff" label="106"/>
+            <paletteEntry value="107" color="#ffffff" label="107"/>
+            <paletteEntry value="108" color="#ffffff" label="108"/>
+            <paletteEntry value="109" color="#ffffff" label="109"/>
+            <paletteEntry value="110" color="#ffffff" label="110"/>
+            <paletteEntry value="111" color="#ffffff" label="111"/>
+            <paletteEntry value="112" color="#ffffff" label="112"/>
+            <paletteEntry value="113" color="#ffffff" label="113"/>
+            <paletteEntry value="114" color="#ffffff" label="114"/>
+            <paletteEntry value="115" color="#ffffff" label="115"/>
+            <paletteEntry value="116" color="#ffffff" label="116"/>
+            <paletteEntry value="117" color="#ffffff" label="117"/>
+            <paletteEntry value="118" color="#ffffff" label="118"/>
+            <paletteEntry value="119" color="#ffffff" label="119"/>
+            <paletteEntry value="120" color="#ffffff" label="120"/>
+            <paletteEntry value="121" color="#ffffff" label="121"/>
+            <paletteEntry value="122" color="#ffffff" label="122"/>
+            <paletteEntry value="123" color="#ffffff" label="123"/>
+            <paletteEntry value="124" color="#ffffff" label="124"/>
+            <paletteEntry value="125" color="#ffffff" label="125"/>
+            <paletteEntry value="126" color="#ffffff" label="126"/>
+            <paletteEntry value="127" color="#ffffff" label="127"/>
+            <paletteEntry value="128" color="#ffffff" label="128"/>
+            <paletteEntry value="129" color="#ffffff" label="129"/>
+            <paletteEntry value="130" color="#ffffff" label="130"/>
+            <paletteEntry value="131" color="#ffffff" label="131"/>
+            <paletteEntry value="132" color="#ffffff" label="132"/>
+            <paletteEntry value="133" color="#ffffff" label="133"/>
+            <paletteEntry value="134" color="#ffffff" label="134"/>
+            <paletteEntry value="135" color="#ffffff" label="135"/>
+            <paletteEntry value="136" color="#ffffff" label="136"/>
+            <paletteEntry value="137" color="#ffffff" label="137"/>
+            <paletteEntry value="138" color="#ffffff" label="138"/>
+            <paletteEntry value="139" color="#ffffff" label="139"/>
+            <paletteEntry value="140" color="#ffffff" label="140"/>
+            <paletteEntry value="141" color="#ffffff" label="141"/>
+            <paletteEntry value="142" color="#ffffff" label="142"/>
+            <paletteEntry value="143" color="#ffffff" label="143"/>
+            <paletteEntry value="144" color="#ffffff" label="144"/>
+            <paletteEntry value="145" color="#ffffff" label="145"/>
+            <paletteEntry value="146" color="#ffffff" label="146"/>
+            <paletteEntry value="147" color="#ffffff" label="147"/>
+            <paletteEntry value="148" color="#ffffff" label="148"/>
+            <paletteEntry value="149" color="#ffffff" label="149"/>
+            <paletteEntry value="150" color="#ffffff" label="150"/>
+            <paletteEntry value="151" color="#ffffff" label="151"/>
+            <paletteEntry value="152" color="#ffffff" label="152"/>
+            <paletteEntry value="153" color="#ffffff" label="153"/>
+            <paletteEntry value="154" color="#ffffff" label="154"/>
+            <paletteEntry value="155" color="#ffffff" label="155"/>
+            <paletteEntry value="156" color="#ffffff" label="156"/>
+            <paletteEntry value="157" color="#ffffff" label="157"/>
+            <paletteEntry value="158" color="#ffffff" label="158"/>
+            <paletteEntry value="159" color="#ffffff" label="159"/>
+            <paletteEntry value="160" color="#ffffff" label="160"/>
+            <paletteEntry value="161" color="#ffffff" label="161"/>
+            <paletteEntry value="162" color="#ffffff" label="162"/>
+            <paletteEntry value="163" color="#ffffff" label="163"/>
+            <paletteEntry value="164" color="#ffffff" label="164"/>
+            <paletteEntry value="165" color="#ffffff" label="165"/>
+            <paletteEntry value="166" color="#ffffff" label="166"/>
+            <paletteEntry value="167" color="#ffffff" label="167"/>
+            <paletteEntry value="168" color="#ffffff" label="168"/>
+            <paletteEntry value="169" color="#ffffff" label="169"/>
+            <paletteEntry value="170" color="#ffffff" label="170"/>
+            <paletteEntry value="171" color="#ffffff" label="171"/>
+            <paletteEntry value="172" color="#ffffff" label="172"/>
+            <paletteEntry value="173" color="#ffffff" label="173"/>
+            <paletteEntry value="174" color="#ffffff" label="174"/>
+            <paletteEntry value="175" color="#ffffff" label="175"/>
+            <paletteEntry value="176" color="#ffffff" label="176"/>
+            <paletteEntry value="177" color="#ffffff" label="177"/>
+            <paletteEntry value="178" color="#ffffff" label="178"/>
+            <paletteEntry value="179" color="#ffffff" label="179"/>
+            <paletteEntry value="180" color="#ffffff" label="180"/>
+            <paletteEntry value="181" color="#ffffff" label="181"/>
+            <paletteEntry value="182" color="#ffffff" label="182"/>
+            <paletteEntry value="183" color="#ffffff" label="183"/>
+            <paletteEntry value="184" color="#ffffff" label="184"/>
+            <paletteEntry value="185" color="#ffffff" label="185"/>
+            <paletteEntry value="186" color="#ffffff" label="186"/>
+            <paletteEntry value="187" color="#ffffff" label="187"/>
+            <paletteEntry value="188" color="#ffffff" label="188"/>
+            <paletteEntry value="189" color="#ffffff" label="189"/>
+            <paletteEntry value="190" color="#ffffff" label="190"/>
+            <paletteEntry value="191" color="#ffffff" label="191"/>
+            <paletteEntry value="192" color="#ffffff" label="192"/>
+            <paletteEntry value="193" color="#ffffff" label="193"/>
+            <paletteEntry value="194" color="#ffffff" label="194"/>
+            <paletteEntry value="195" color="#ffffff" label="195"/>
+            <paletteEntry value="196" color="#ffffff" label="196"/>
+            <paletteEntry value="197" color="#ffffff" label="197"/>
+            <paletteEntry value="198" color="#ffffff" label="198"/>
+            <paletteEntry value="199" color="#ffffff" label="199"/>
+            <paletteEntry value="200" color="#ffffff" label="200"/>
+            <paletteEntry value="201" color="#ffffff" label="201"/>
+            <paletteEntry value="202" color="#ffffff" label="202"/>
+            <paletteEntry value="203" color="#ffffff" label="203"/>
+            <paletteEntry value="204" color="#ffffff" label="204"/>
+            <paletteEntry value="205" color="#ffffff" label="205"/>
+            <paletteEntry value="206" color="#ffffff" label="206"/>
+            <paletteEntry value="207" color="#ffffff" label="207"/>
+            <paletteEntry value="208" color="#ffffff" label="208"/>
+            <paletteEntry value="209" color="#ffffff" label="209"/>
+            <paletteEntry value="210" color="#ffffff" label="210"/>
+            <paletteEntry value="211" color="#ffffff" label="211"/>
+            <paletteEntry value="212" color="#ffffff" label="212"/>
+            <paletteEntry value="213" color="#ffffff" label="213"/>
+            <paletteEntry value="214" color="#ffffff" label="214"/>
+            <paletteEntry value="215" color="#ffffff" label="215"/>
+            <paletteEntry value="216" color="#ffffff" label="216"/>
+            <paletteEntry value="217" color="#ffffff" label="217"/>
+            <paletteEntry value="218" color="#ffffff" label="218"/>
+            <paletteEntry value="219" color="#ffffff" label="219"/>
+            <paletteEntry value="220" color="#ffffff" label="220"/>
+            <paletteEntry value="221" color="#ffffff" label="221"/>
+            <paletteEntry value="222" color="#ffffff" label="222"/>
+            <paletteEntry value="223" color="#ffffff" label="223"/>
+            <paletteEntry value="224" color="#ffffff" label="224"/>
+            <paletteEntry value="225" color="#ffffff" label="225"/>
+            <paletteEntry value="226" color="#ffffff" label="226"/>
+            <paletteEntry value="227" color="#ffffff" label="227"/>
+            <paletteEntry value="228" color="#ffffff" label="228"/>
+            <paletteEntry value="229" color="#ffffff" label="229"/>
+            <paletteEntry value="230" color="#ffffff" label="230"/>
+            <paletteEntry value="231" color="#ffffff" label="231"/>
+            <paletteEntry value="232" color="#ffffff" label="232"/>
+            <paletteEntry value="233" color="#ffffff" label="233"/>
+            <paletteEntry value="234" color="#ffffff" label="234"/>
+            <paletteEntry value="235" color="#ffffff" label="235"/>
+            <paletteEntry value="236" color="#ffffff" label="236"/>
+            <paletteEntry value="237" color="#ffffff" label="237"/>
+            <paletteEntry value="238" color="#ffffff" label="238"/>
+            <paletteEntry value="239" color="#ffffff" label="239"/>
+            <paletteEntry value="240" color="#ffffff" label="240"/>
+            <paletteEntry value="241" color="#ffffff" label="241"/>
+            <paletteEntry value="242" color="#ffffff" label="242"/>
+            <paletteEntry value="243" color="#ffffff" label="243"/>
+            <paletteEntry value="244" color="#ffffff" label="244"/>
+            <paletteEntry value="245" color="#ffffff" label="245"/>
+            <paletteEntry value="246" color="#ffffff" label="246"/>
+            <paletteEntry value="247" color="#ffffff" label="247"/>
+            <paletteEntry value="248" color="#ffffff" label="248"/>
+            <paletteEntry value="249" color="#ffffff" label="249"/>
+            <paletteEntry value="250" color="#ffffff" label="250"/>
+            <paletteEntry value="251" color="#ffffff" label="251"/>
+            <paletteEntry value="252" color="#ffffff" label="252"/>
+            <paletteEntry value="253" color="#ffffff" label="253"/>
+            <paletteEntry value="254" color="#ffffff" label="254"/>
+            <paletteEntry value="255" color="#ffffff" label="255"/>
+          </colorPalette>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>l620160621131421610</id>
+      <datasource>P:/vmgg08/lenne/karte/dtk500-v/l6.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l6</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28303</srsid>
+          <srid>5650</srid>
+          <authid>EPSG:5650</authid>
+          <description>ETRS89 / UTM zone 33N (zE-N)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
+          <rasterTransparency/>
+          <colorPalette>
+            <paletteEntry value="0" color="#ffffff" label="0"/>
+            <paletteEntry value="1" color="#cc66d9" label="1"/>
+            <paletteEntry value="2" color="#e6ccf2" label="2"/>
+            <paletteEntry value="3" color="#e6ccf2" label="3"/>
+            <paletteEntry value="4" color="#ffffff" label="4"/>
+            <paletteEntry value="5" color="#ffffff" label="5"/>
+            <paletteEntry value="6" color="#ffffff" label="6"/>
+            <paletteEntry value="7" color="#ffffff" label="7"/>
+            <paletteEntry value="8" color="#ffffff" label="8"/>
+            <paletteEntry value="9" color="#ffffff" label="9"/>
+            <paletteEntry value="10" color="#ffffff" label="10"/>
+            <paletteEntry value="11" color="#cc66d9" label="11"/>
+            <paletteEntry value="12" color="#e6ccf2" label="12"/>
+            <paletteEntry value="13" color="#e6ccf2" label="13"/>
+            <paletteEntry value="14" color="#ffffff" label="14"/>
+            <paletteEntry value="15" color="#ffffff" label="15"/>
+            <paletteEntry value="16" color="#ffffff" label="16"/>
+            <paletteEntry value="17" color="#ffffff" label="17"/>
+            <paletteEntry value="18" color="#ffffff" label="18"/>
+            <paletteEntry value="19" color="#ffffff" label="19"/>
+            <paletteEntry value="20" color="#ffffff" label="20"/>
+            <paletteEntry value="21" color="#ffffff" label="21"/>
+            <paletteEntry value="22" color="#ffffff" label="22"/>
+            <paletteEntry value="23" color="#ffffff" label="23"/>
+            <paletteEntry value="24" color="#ffffff" label="24"/>
+            <paletteEntry value="25" color="#ffffff" label="25"/>
+            <paletteEntry value="26" color="#ffffff" label="26"/>
+            <paletteEntry value="27" color="#ffffff" label="27"/>
+            <paletteEntry value="28" color="#ffffff" label="28"/>
+            <paletteEntry value="29" color="#ffffff" label="29"/>
+            <paletteEntry value="30" color="#ffffff" label="30"/>
+            <paletteEntry value="31" color="#ffffff" label="31"/>
+            <paletteEntry value="32" color="#ffffff" label="32"/>
+            <paletteEntry value="33" color="#ffffff" label="33"/>
+            <paletteEntry value="34" color="#ffffff" label="34"/>
+            <paletteEntry value="35" color="#ffffff" label="35"/>
+            <paletteEntry value="36" color="#ffffff" label="36"/>
+            <paletteEntry value="37" color="#ffffff" label="37"/>
+            <paletteEntry value="38" color="#ffffff" label="38"/>
+            <paletteEntry value="39" color="#ffffff" label="39"/>
+            <paletteEntry value="40" color="#ffffff" label="40"/>
+            <paletteEntry value="41" color="#ffffff" label="41"/>
+            <paletteEntry value="42" color="#ffffff" label="42"/>
+            <paletteEntry value="43" color="#ffffff" label="43"/>
+            <paletteEntry value="44" color="#ffffff" label="44"/>
+            <paletteEntry value="45" color="#ffffff" label="45"/>
+            <paletteEntry value="46" color="#ffffff" label="46"/>
+            <paletteEntry value="47" color="#ffffff" label="47"/>
+            <paletteEntry value="48" color="#ffffff" label="48"/>
+            <paletteEntry value="49" color="#ffffff" label="49"/>
+            <paletteEntry value="50" color="#ffffff" label="50"/>
+            <paletteEntry value="51" color="#ffffff" label="51"/>
+            <paletteEntry value="52" color="#ffffff" label="52"/>
+            <paletteEntry value="53" color="#ffffff" label="53"/>
+            <paletteEntry value="54" color="#ffffff" label="54"/>
+            <paletteEntry value="55" color="#ffffff" label="55"/>
+            <paletteEntry value="56" color="#ffffff" label="56"/>
+            <paletteEntry value="57" color="#ffffff" label="57"/>
+            <paletteEntry value="58" color="#ffffff" label="58"/>
+            <paletteEntry value="59" color="#ffffff" label="59"/>
+            <paletteEntry value="60" color="#ffffff" label="60"/>
+            <paletteEntry value="61" color="#ffffff" label="61"/>
+            <paletteEntry value="62" color="#ffffff" label="62"/>
+            <paletteEntry value="63" color="#ffffff" label="63"/>
+            <paletteEntry value="64" color="#ffffff" label="64"/>
+            <paletteEntry value="65" color="#ffffff" label="65"/>
+            <paletteEntry value="66" color="#ffffff" label="66"/>
+            <paletteEntry value="67" color="#ffffff" label="67"/>
+            <paletteEntry value="68" color="#ffffff" label="68"/>
+            <paletteEntry value="69" color="#ffffff" label="69"/>
+            <paletteEntry value="70" color="#ffffff" label="70"/>
+            <paletteEntry value="71" color="#ffffff" label="71"/>
+            <paletteEntry value="72" color="#ffffff" label="72"/>
+            <paletteEntry value="73" color="#ffffff" label="73"/>
+            <paletteEntry value="74" color="#ffffff" label="74"/>
+            <paletteEntry value="75" color="#ffffff" label="75"/>
+            <paletteEntry value="76" color="#ffffff" label="76"/>
+            <paletteEntry value="77" color="#ffffff" label="77"/>
+            <paletteEntry value="78" color="#ffffff" label="78"/>
+            <paletteEntry value="79" color="#ffffff" label="79"/>
+            <paletteEntry value="80" color="#ffffff" label="80"/>
+            <paletteEntry value="81" color="#ffffff" label="81"/>
+            <paletteEntry value="82" color="#ffffff" label="82"/>
+            <paletteEntry value="83" color="#ffffff" label="83"/>
+            <paletteEntry value="84" color="#ffffff" label="84"/>
+            <paletteEntry value="85" color="#ffffff" label="85"/>
+            <paletteEntry value="86" color="#ffffff" label="86"/>
+            <paletteEntry value="87" color="#ffffff" label="87"/>
+            <paletteEntry value="88" color="#ffffff" label="88"/>
+            <paletteEntry value="89" color="#ffffff" label="89"/>
+            <paletteEntry value="90" color="#ffffff" label="90"/>
+            <paletteEntry value="91" color="#ffffff" label="91"/>
+            <paletteEntry value="92" color="#ffffff" label="92"/>
+            <paletteEntry value="93" color="#ffffff" label="93"/>
+            <paletteEntry value="94" color="#ffffff" label="94"/>
+            <paletteEntry value="95" color="#ffffff" label="95"/>
+            <paletteEntry value="96" color="#ffffff" label="96"/>
+            <paletteEntry value="97" color="#ffffff" label="97"/>
+            <paletteEntry value="98" color="#ffffff" label="98"/>
+            <paletteEntry value="99" color="#ffffff" label="99"/>
+            <paletteEntry value="100" color="#ffffff" label="100"/>
+            <paletteEntry value="101" color="#ffffff" label="101"/>
+            <paletteEntry value="102" color="#ffffff" label="102"/>
+            <paletteEntry value="103" color="#ffffff" label="103"/>
+            <paletteEntry value="104" color="#ffffff" label="104"/>
+            <paletteEntry value="105" color="#ffffff" label="105"/>
+            <paletteEntry value="106" color="#ffffff" label="106"/>
+            <paletteEntry value="107" color="#ffffff" label="107"/>
+            <paletteEntry value="108" color="#ffffff" label="108"/>
+            <paletteEntry value="109" color="#ffffff" label="109"/>
+            <paletteEntry value="110" color="#ffffff" label="110"/>
+            <paletteEntry value="111" color="#ffffff" label="111"/>
+            <paletteEntry value="112" color="#ffffff" label="112"/>
+            <paletteEntry value="113" color="#ffffff" label="113"/>
+            <paletteEntry value="114" color="#ffffff" label="114"/>
+            <paletteEntry value="115" color="#ffffff" label="115"/>
+            <paletteEntry value="116" color="#ffffff" label="116"/>
+            <paletteEntry value="117" color="#ffffff" label="117"/>
+            <paletteEntry value="118" color="#ffffff" label="118"/>
+            <paletteEntry value="119" color="#ffffff" label="119"/>
+            <paletteEntry value="120" color="#ffffff" label="120"/>
+            <paletteEntry value="121" color="#ffffff" label="121"/>
+            <paletteEntry value="122" color="#ffffff" label="122"/>
+            <paletteEntry value="123" color="#ffffff" label="123"/>
+            <paletteEntry value="124" color="#ffffff" label="124"/>
+            <paletteEntry value="125" color="#ffffff" label="125"/>
+            <paletteEntry value="126" color="#ffffff" label="126"/>
+            <paletteEntry value="127" color="#ffffff" label="127"/>
+            <paletteEntry value="128" color="#ffffff" label="128"/>
+            <paletteEntry value="129" color="#ffffff" label="129"/>
+            <paletteEntry value="130" color="#ffffff" label="130"/>
+            <paletteEntry value="131" color="#ffffff" label="131"/>
+            <paletteEntry value="132" color="#ffffff" label="132"/>
+            <paletteEntry value="133" color="#ffffff" label="133"/>
+            <paletteEntry value="134" color="#ffffff" label="134"/>
+            <paletteEntry value="135" color="#ffffff" label="135"/>
+            <paletteEntry value="136" color="#ffffff" label="136"/>
+            <paletteEntry value="137" color="#ffffff" label="137"/>
+            <paletteEntry value="138" color="#ffffff" label="138"/>
+            <paletteEntry value="139" color="#ffffff" label="139"/>
+            <paletteEntry value="140" color="#ffffff" label="140"/>
+            <paletteEntry value="141" color="#ffffff" label="141"/>
+            <paletteEntry value="142" color="#ffffff" label="142"/>
+            <paletteEntry value="143" color="#ffffff" label="143"/>
+            <paletteEntry value="144" color="#ffffff" label="144"/>
+            <paletteEntry value="145" color="#ffffff" label="145"/>
+            <paletteEntry value="146" color="#ffffff" label="146"/>
+            <paletteEntry value="147" color="#ffffff" label="147"/>
+            <paletteEntry value="148" color="#ffffff" label="148"/>
+            <paletteEntry value="149" color="#ffffff" label="149"/>
+            <paletteEntry value="150" color="#ffffff" label="150"/>
+            <paletteEntry value="151" color="#ffffff" label="151"/>
+            <paletteEntry value="152" color="#ffffff" label="152"/>
+            <paletteEntry value="153" color="#ffffff" label="153"/>
+            <paletteEntry value="154" color="#ffffff" label="154"/>
+            <paletteEntry value="155" color="#ffffff" label="155"/>
+            <paletteEntry value="156" color="#ffffff" label="156"/>
+            <paletteEntry value="157" color="#ffffff" label="157"/>
+            <paletteEntry value="158" color="#ffffff" label="158"/>
+            <paletteEntry value="159" color="#ffffff" label="159"/>
+            <paletteEntry value="160" color="#ffffff" label="160"/>
+            <paletteEntry value="161" color="#ffffff" label="161"/>
+            <paletteEntry value="162" color="#ffffff" label="162"/>
+            <paletteEntry value="163" color="#ffffff" label="163"/>
+            <paletteEntry value="164" color="#ffffff" label="164"/>
+            <paletteEntry value="165" color="#ffffff" label="165"/>
+            <paletteEntry value="166" color="#ffffff" label="166"/>
+            <paletteEntry value="167" color="#ffffff" label="167"/>
+            <paletteEntry value="168" color="#ffffff" label="168"/>
+            <paletteEntry value="169" color="#ffffff" label="169"/>
+            <paletteEntry value="170" color="#ffffff" label="170"/>
+            <paletteEntry value="171" color="#ffffff" label="171"/>
+            <paletteEntry value="172" color="#ffffff" label="172"/>
+            <paletteEntry value="173" color="#ffffff" label="173"/>
+            <paletteEntry value="174" color="#ffffff" label="174"/>
+            <paletteEntry value="175" color="#ffffff" label="175"/>
+            <paletteEntry value="176" color="#ffffff" label="176"/>
+            <paletteEntry value="177" color="#ffffff" label="177"/>
+            <paletteEntry value="178" color="#ffffff" label="178"/>
+            <paletteEntry value="179" color="#ffffff" label="179"/>
+            <paletteEntry value="180" color="#ffffff" label="180"/>
+            <paletteEntry value="181" color="#ffffff" label="181"/>
+            <paletteEntry value="182" color="#ffffff" label="182"/>
+            <paletteEntry value="183" color="#ffffff" label="183"/>
+            <paletteEntry value="184" color="#ffffff" label="184"/>
+            <paletteEntry value="185" color="#ffffff" label="185"/>
+            <paletteEntry value="186" color="#ffffff" label="186"/>
+            <paletteEntry value="187" color="#ffffff" label="187"/>
+            <paletteEntry value="188" color="#ffffff" label="188"/>
+            <paletteEntry value="189" color="#ffffff" label="189"/>
+            <paletteEntry value="190" color="#ffffff" label="190"/>
+            <paletteEntry value="191" color="#ffffff" label="191"/>
+            <paletteEntry value="192" color="#ffffff" label="192"/>
+            <paletteEntry value="193" color="#ffffff" label="193"/>
+            <paletteEntry value="194" color="#ffffff" label="194"/>
+            <paletteEntry value="195" color="#ffffff" label="195"/>
+            <paletteEntry value="196" color="#ffffff" label="196"/>
+            <paletteEntry value="197" color="#ffffff" label="197"/>
+            <paletteEntry value="198" color="#ffffff" label="198"/>
+            <paletteEntry value="199" color="#ffffff" label="199"/>
+            <paletteEntry value="200" color="#ffffff" label="200"/>
+            <paletteEntry value="201" color="#ffffff" label="201"/>
+            <paletteEntry value="202" color="#ffffff" label="202"/>
+            <paletteEntry value="203" color="#ffffff" label="203"/>
+            <paletteEntry value="204" color="#ffffff" label="204"/>
+            <paletteEntry value="205" color="#ffffff" label="205"/>
+            <paletteEntry value="206" color="#ffffff" label="206"/>
+            <paletteEntry value="207" color="#ffffff" label="207"/>
+            <paletteEntry value="208" color="#ffffff" label="208"/>
+            <paletteEntry value="209" color="#ffffff" label="209"/>
+            <paletteEntry value="210" color="#ffffff" label="210"/>
+            <paletteEntry value="211" color="#ffffff" label="211"/>
+            <paletteEntry value="212" color="#ffffff" label="212"/>
+            <paletteEntry value="213" color="#ffffff" label="213"/>
+            <paletteEntry value="214" color="#ffffff" label="214"/>
+            <paletteEntry value="215" color="#ffffff" label="215"/>
+            <paletteEntry value="216" color="#ffffff" label="216"/>
+            <paletteEntry value="217" color="#ffffff" label="217"/>
+            <paletteEntry value="218" color="#ffffff" label="218"/>
+            <paletteEntry value="219" color="#ffffff" label="219"/>
+            <paletteEntry value="220" color="#ffffff" label="220"/>
+            <paletteEntry value="221" color="#ffffff" label="221"/>
+            <paletteEntry value="222" color="#ffffff" label="222"/>
+            <paletteEntry value="223" color="#ffffff" label="223"/>
+            <paletteEntry value="224" color="#ffffff" label="224"/>
+            <paletteEntry value="225" color="#ffffff" label="225"/>
+            <paletteEntry value="226" color="#ffffff" label="226"/>
+            <paletteEntry value="227" color="#ffffff" label="227"/>
+            <paletteEntry value="228" color="#ffffff" label="228"/>
+            <paletteEntry value="229" color="#ffffff" label="229"/>
+            <paletteEntry value="230" color="#ffffff" label="230"/>
+            <paletteEntry value="231" color="#ffffff" label="231"/>
+            <paletteEntry value="232" color="#ffffff" label="232"/>
+            <paletteEntry value="233" color="#ffffff" label="233"/>
+            <paletteEntry value="234" color="#ffffff" label="234"/>
+            <paletteEntry value="235" color="#ffffff" label="235"/>
+            <paletteEntry value="236" color="#ffffff" label="236"/>
+            <paletteEntry value="237" color="#ffffff" label="237"/>
+            <paletteEntry value="238" color="#ffffff" label="238"/>
+            <paletteEntry value="239" color="#ffffff" label="239"/>
+            <paletteEntry value="240" color="#ffffff" label="240"/>
+            <paletteEntry value="241" color="#ffffff" label="241"/>
+            <paletteEntry value="242" color="#ffffff" label="242"/>
+            <paletteEntry value="243" color="#ffffff" label="243"/>
+            <paletteEntry value="244" color="#ffffff" label="244"/>
+            <paletteEntry value="245" color="#ffffff" label="245"/>
+            <paletteEntry value="246" color="#ffffff" label="246"/>
+            <paletteEntry value="247" color="#ffffff" label="247"/>
+            <paletteEntry value="248" color="#ffffff" label="248"/>
+            <paletteEntry value="249" color="#ffffff" label="249"/>
+            <paletteEntry value="250" color="#ffffff" label="250"/>
+            <paletteEntry value="251" color="#ffffff" label="251"/>
+            <paletteEntry value="252" color="#ffffff" label="252"/>
+            <paletteEntry value="253" color="#ffffff" label="253"/>
+            <paletteEntry value="254" color="#ffffff" label="254"/>
+            <paletteEntry value="255" color="#ffffff" label="255"/>
+          </colorPalette>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:5650</ProjectCrs>
+      <ProjectCRSID type="int">28303</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>VG250_STA20160621132313523</value>
+        <value>Daten20160621132702348</value>
+        <value>Daten_backup20160621140917441</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>10.000000</value>
+        <value>10.000000</value>
+        <value>10.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+</qgis>
